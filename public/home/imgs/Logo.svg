@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="338" height="338" viewBox="0 0 338 338">
+  <defs>
+    <clipPath id="clip-Mesa_de_trabajo_2">
+      <rect width="338" height="338"/>
+    </clipPath>
+  </defs>
+  <g id="Mesa_de_trabajo_2" data-name="Mesa de trabajo – 2" clip-path="url(#clip-Mesa_de_trabajo_2)">
+    <text id="T" transform="translate(147 211)" fill="#c96f4b" font-size="82" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">T</tspan></text>
+    <text id="V" transform="translate(313 218) rotate(-90)" fill="#23241f" font-size="150" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">V</tspan></text>
+    <text id="V-2" data-name="V" transform="translate(18 103) rotate(90)" fill="#23241f" font-size="203" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">V</tspan></text>
+  </g>
+</svg>

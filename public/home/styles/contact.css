@@ -1,0 +1,128 @@
+.contact-container {
+    background: var(--dark);
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    padding:1rem;
+    border-top:1px solid rgba(255,255,255,0.5);
+    border-left:1px solid rgba(255,255,255,0.5);
+    backdrop-filter:blur(5px);
+    color:red;
+    height:40vh;
+}
+
+.contact-me {
+    font-size:3em;
+    color:var(--white);
+}
+
+.contact-desc {
+    font-size:1.5em;
+    color:var(--white);
+}
+
+.custom-btn {
+    position: relative;
+    color: var(--white);
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    text-decoration: none;
+}
+
+/* 11 */
+.btn-11 {
+    border: none;
+    background: linear-gradient(0deg, rgb(251, 76, 33) 0%, rgb(234, 134, 76) 100%);
+    color: #fff;
+    overflow: hidden;
+}
+.btn-11:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.btn-11:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 3s ease-in-out infinite;
+}
+.btn-11:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+
+@-webkit-keyframes shiny-btn1 {
+    0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+    80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+    81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+    100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+}
+
+.contact-networks {
+    font-size: 3em;
+}
+
+@media (width <= 1200px) {
+    .contact-me {
+        font-size:2em;
+    }
+
+    .contact-desc {
+        font-size:1.2em;
+    }
+}
+
+@media (width <= 700px) {
+    .contact-me {
+        font-size:1.5em;
+    }
+
+    .contact-desc {
+        font-size:1em;
+    }
+
+    .contact-networks {
+        font-size: 2em;
+    }
+
+    .custom-btn {
+        border-radius: 5px;
+        padding: 5px 15px;
+    }
+}
+
+@media (width <= 400px) {
+    .contact-me {
+        font-size:1.2em;
+    }
+
+    .contact-desc {
+        font-size:.8em;
+    }
+
+    .contact-networks {
+        font-size: 2em;
+    }
+
+    .custom-btn {
+        border-radius: 5px;
+        padding: 3px 10px;
+        font-size:.8em;
+    }
+}
